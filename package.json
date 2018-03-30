@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "lizzys portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melissacoomans/portfolio.git"
+  },
+  "author": "Melissa",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/melissacoomans/portfolio/issues"
+  },
+  "homepage": "https://github.com/melissacoomans/portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
