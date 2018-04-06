@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "lizzys portfolio",
+  "description": "melissa's portfolio",
   "main": "index.js",
   "scripts": {
     "test": "test"
