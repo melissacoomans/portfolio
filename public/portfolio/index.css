@@ -13,12 +13,15 @@ h1 {
 }
 
 header a {
-  left: 0;
+  font-size: 25px;
+  font-weight: bold;
+  vertical-align: middle;
+  color: #fff;
 }
 
 ul {
-  list-style-type: circle;
-  color: #fff;
+    list-style-type: circle;
+    color: #fff;
 }
 
 header {
@@ -53,6 +56,7 @@ experience {
   right: 0px;
   overflow-x: hidden;
 }
+
 
 experience h1, experience p {
   margin: 25px;
