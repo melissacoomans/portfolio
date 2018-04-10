@@ -62,13 +62,13 @@ ul.header-left-list {
 .main-right {
   float: left;
   margin-top: 0px;
-  width: 450px;
-  /* margin-right: 70px; */
+  width: 30%;
+  margin-right: 30px;
 }
 
 .main-left {
   margin-left: 50px;
-  width: 430px;
+  width: 25%;
 }
 
 .main-right li,
@@ -89,30 +89,35 @@ aside {
   background-color: #c5cfd6;
   position: absolute;
   right: 0px;
-  overflow-x: hidden;
+  overflow: hidden;
   top: 0px;
+  margin-left: 25px;
 }
 
 aside h2 {
-  margin-top: 25px;
-  margin-left: 30px;
+  margin-bottom: 8px;
   color: #0570AE;
 }
 
-aside h2:first-child {
+.aside-first-list h2 {
   margin-top: 40px;
+}
+
+aside img {
+   float: right;
+   align: bottom;
+   width: 150px;
 }
 
 ul.aside-first-list,
 ul.aside-second-list,
 ul.aside-third-list {
-  padding-left: 30px;
   list-style-type: none;
   margin-right: 20px;
 }
 
 .aside-first-list li {
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 684px) {
