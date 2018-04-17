@@ -6,21 +6,29 @@ https://www.w3schools.com/howto/tryit.asp?font=Martel%20Sans
 https://www.w3schools.com/howto/tryit.asp?font=Marmelad
 https://www.w3schools.com/howto/tryit.asp?font=Saira%20Extra%20Condensed */
 
-
 html {
   font-size: 14px;
   font-family: sans-serif;
 }
 
 body {
-  background-color: #f9f9f9;
-  margin: 0;
+  margin: 0 auto;
+}
+
+main h3 {
+  font-family: Open Sans Condensed;
+}
+
+p,
+main p,
+nav h2,
+circle h1 {
+  font-family: Open Sans;
 }
 
 p,
 main p {
   font-size: 16px;
-  font-family: Open Sans;
 }
 
 header h1,
@@ -40,48 +48,48 @@ nav {
   background-color: #C8C8D5;
   height: 50px;
   margin: 0;
+  width:
 }
 nav h2 {
-  display:inline-block;
+  display: inline-block;
   padding: 2px 32px;
   margin-top: 11px;
   font-size: 18px;
   color: #fff;
-  font-family: Open Sans;
 }
 
 main {
   background-color: #E9EDF7;
   height: 450px;
+  width: 100%;
 }
 
 main h3 {
   font-size: 25px;
   float: left;
-  margin-top: 375px;
-  margin-left: 312px;
   position: absolute;
-  font-family: Open Sans Condensed;
+  margin-left: 65px;
+  margin-top: 320px;
 }
 
 main img {
    float:left;
    clip-path: circle(150px at center);
-   margin: 45px 25px 0px 250px;
+   /* margin: 45px 20px 20px 320px; */
    height: 300px;
    width: 300px;
+   margin-right: 50px;
+   /* position: relative;
+   display: inline-block; */
 }
 
 main h1 {
   font-size: 30px;
-  margin: 0;
 }
 
 main .intro {
-  float: left;
-  width: 600px;
-  margin-top: 50px;
-  margin-left: 30px;
+  margin: 0px auto;
+  padding-top: 55px;
 }
 
 main p {
@@ -89,13 +97,77 @@ main p {
   line-height: 1.5;
 }
 
-footer {
+.design,
+.development,
+.testing {
+  width: 33.33%;
+  margin: auto;
+  display: inline-block;
+}
+
+.intro,
+.skillset,
+.projects {
+  width: 800px;
+  margin: 0 auto;
+  height: 150px;
+  display: block;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  background: #E5C6B5;
+  border-radius: 250px;
+  text-align: center;
+  margin: 85px 0px 40px 0px;
+}
+
+.testing {
+  float: right;
+  background: #F8F4E8;
+}
+
+.development {
+  margin: 0 auto;
+  margin-left: 16px;
+  background: #E9EDF7;
+}
+
+.circle h1 {
+  padding: 90px 0;
+  font-size: 25px;
+}
+
+hr {
+    display: block;
+    height: 7px;
+    border: 0;
+    border-top: 7px solid #E9EDF7;
+    margin: 10px 0 80px 0;
+    padding: 0;
+    border-radius: 2px;
+}
+
+.projects {
+  background-color: #F2F2F2;
+  width: 100%;
+  display: inline-block;
+  margin-top: 100px;
+  height: 700px;
+}
+
+.heading {
+  float: left;
+}
+
+/* footer {
   background-color: #ECEBEC;
   height: 50px;
+  left: 0;
   bottom: 0;
   position: absolute;
-  font-size: 12px;
-}
+} */
 
 header,
 nav,
